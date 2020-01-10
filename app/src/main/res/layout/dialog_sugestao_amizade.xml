@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#232323"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/dialod_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact home"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:layout_marginTop="90dp"/>
+        <TextView
+            android:id="@+id/dialog_sobrenome_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Phone number"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/data_aniversario_sugestao_amizade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Phone number"
+            android:textColor="@android:color/holo_blue_bright"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/dialog_btn_call"
+            android:padding="20dp"
+            android:textAlignment="textStart"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/ic_add_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile call"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/dialod_btn_message"
+            android:drawablePadding="20dp"
+            android:textAlignment="textStart"
+            android:padding="20dp"
+            android:drawableLeft="@drawable/ic_message_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Use message"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:src="@drawable/img8"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Every item for another tab-->
+    <item
+        android:id="@+id/bottomBarItemOne"
+        android:icon="@drawable/conversas_icone_24dp"
+        android:title="Conversas" />
+    <item
+        android:id="@+id/bottomBarItemSecond"
+        android:icon="@drawable/grupo_amizade_24dp"
+        android:title="Grupo amizade" />
+    <item
+        android:id="@+id/bottomBarItemThird"
+        android:icon="@drawable/ic_sugestao_amizade_24dp"
+        android:title="Sugestão amizade" />
+</menu>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="website.copyandpaste.bottombarnavigationwithnavigationdrawer.Fragment.FragmentoConversas">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Second fragment"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/admod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+
+    <Button
+        android:id="@+id/buttomAddInterstitial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Intertitial"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary" />
+    <Button
+        android:id="@+id/buttonRVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Video"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary" />
+
+
+</LinearLayout>

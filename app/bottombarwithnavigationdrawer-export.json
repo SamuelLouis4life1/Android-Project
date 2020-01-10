@@ -1,0 +1,14 @@
+{
+  "Users" : {
+    "Female" : {
+      "Uid" : {
+        "name" : true
+      }
+    },
+    "Male" : {
+      "Uid" : {
+        "name" : true
+      }
+    }
+  }
+}
